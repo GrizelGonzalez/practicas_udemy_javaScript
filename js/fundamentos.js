@@ -7,3 +7,9 @@ console.log(edad);
 
 var tieneTrabajo = true;
 console.log(tieneTrabajo);
+
+const getLove = () => {
+  console.log('Te amo');
+}
+
+getLove();
