@@ -1,3 +1,4 @@
+/***Lección de definición de variables***/
 var primerNombre = 'Miriam';
 console.log(primerNombre);
 
@@ -8,8 +9,8 @@ console.log(edad);
 var tieneTrabajo = true;
 console.log(tieneTrabajo);
 
-const getLove = () => {
+/*const getLove = () => {
   console.log('Te amo');
 }
 
-getLove();
+getLove();*/
