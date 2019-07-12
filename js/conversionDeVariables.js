@@ -37,12 +37,39 @@ console.log(typeof edadGrizel);
 console.log(typeof mayorMiriam);
 console.log(typeof 'Miriam es mayor que Grizel');
 
-//Operadores Unarios Ariméticos//
+//Operadores Unarios Ariméticos o cd incremento//
 //++ Incremento
 //-- Decremento
 var edadIgnacio = 18;
 var edadJunior = 14;
 ++edadIgnacio;
 console.log(edadIgnacio);
+
+//Operadores de asignación//
+var a = 5;
+var b = 18;
+ a += b;
+ a -= b;
+ a *= b;
+ a /= b;
+ var c;
+ c = a % b; //Devuelve el residuo de una division//
+ a %= b;
+
+ //Ejercicio de codificación//
+var pesoLuis = 72;
+var alturaLuis = 1.72;
+var pesoCarlos = 89;
+var alturaCarlos = 1.75;
+
+var IMCLuis = pesoLuis / (alturaLuis * alturaLuis);
+var IMCCarlos = pesoCarlos / (alturaCarlos * alturaCarlos);
+console.log('El IMC de Luis es: ' + IMCLuis);
+console.log('El IMC de Carlos es: ' + IMCCarlos);
+
+var resultado = IMCCarlos > IMCLuis;
+console.log( '¿El IMC de Carlos es superior al de Luis? ' + resultado);
+
+
 
 
